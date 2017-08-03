@@ -1,0 +1,58 @@
+{
+    "name": "laravel/helpers",
+    "description": "Laravel Helpers provide namespaced static helpers to common Laravel needs.",
+    "keywords": [
+        "helpers",
+        "laravel"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/Artistan/helpers/issues",
+        "source": "https://github.com/Artistan/helpers"
+    },
+    "authors": [
+        {
+            "name": "Charles Peterson",
+            "email": "artistan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "~5.4",
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "files": [
+            "src/deprecated/foundation-helpers.php",
+            "src/deprecated/support-helpers.php"
+        ],
+        "psr-4": {
+            "Laravel\\Helpers\\": "src/",
+            "Lrvlhlprs\\": "src/",
+            "LH\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Laravel\\Helpers\\HelpersServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

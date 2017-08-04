@@ -1,6 +1,6 @@
 {
     "name": "laravel/helpers",
-    "description": "Laravel Helpers provide namespaced static helpers to common Laravel needs.",
+    "description": "Laravel Helpers provide name-spaced static helpers to common Laravel needs.",
     "keywords": [
         "helpers",
         "laravel"

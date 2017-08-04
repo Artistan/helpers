@@ -11,7 +11,7 @@
 
 Laravel Helpers provides simple static methods to assist the transition from `@deprected` laravel helper functions. 
 Once the helpers are installed, they will automatically replace the `@deprecated` laravel helpers.
-Currently, Helpers also provides namespaced static methods to provide easy OOP helpers that will not conflict with the global namespace.
+Currently, Helpers also provides name-spaced static methods to provide easy OOP helpers that will not conflict with the global namespace.
 
 ## Official Documentation
 
